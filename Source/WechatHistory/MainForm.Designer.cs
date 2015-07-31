@@ -84,7 +84,7 @@
             this.splitContainer1.Panel2.Controls.Add(this.btnSearchHistory);
             this.splitContainer1.Panel2.Controls.Add(this.tbSearchHistory);
             this.splitContainer1.Panel2.Resize += new System.EventHandler(this.splitContainer1_Panel2_Resize);
-            this.splitContainer1.Size = new System.Drawing.Size(969, 595);
+            this.splitContainer1.Size = new System.Drawing.Size(969, 645);
             this.splitContainer1.SplitterDistance = 245;
             this.splitContainer1.SplitterWidth = 8;
             this.splitContainer1.TabIndex = 4;
@@ -94,10 +94,10 @@
             this.tabControl.Controls.Add(this.tabPage1);
             this.tabControl.Controls.Add(this.tabPage2);
             this.tabControl.Controls.Add(this.tabPage3);
-            this.tabControl.Location = new System.Drawing.Point(3, 32);
+            this.tabControl.Location = new System.Drawing.Point(3, 35);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(206, 448);
+            this.tabControl.Size = new System.Drawing.Size(206, 485);
             this.tabControl.TabIndex = 1;
             this.tabControl.SelectedIndexChanged += new System.EventHandler(this.tabControl_SelectedIndexChanged);
             // 
@@ -107,7 +107,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(198, 422);
+            this.tabPage1.Size = new System.Drawing.Size(198, 459);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "好友";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -117,9 +117,9 @@
             this.tvFriends.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.tvFriends.FullRowSelect = true;
             this.tvFriends.HideSelection = false;
-            this.tvFriends.Location = new System.Drawing.Point(6, 6);
+            this.tvFriends.Location = new System.Drawing.Point(6, 7);
             this.tvFriends.Name = "tvFriends";
-            this.tvFriends.Size = new System.Drawing.Size(101, 216);
+            this.tvFriends.Size = new System.Drawing.Size(101, 234);
             this.tvFriends.TabIndex = 2;
             this.tvFriends.BeforeSelect += new System.Windows.Forms.TreeViewCancelEventHandler(this.tvFriends_BeforeSelect);
             this.tvFriends.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.tvFriends_AfterSelect);
@@ -131,7 +131,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(198, 422);
+            this.tabPage2.Size = new System.Drawing.Size(198, 459);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "群";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -141,9 +141,9 @@
             this.tvGroup.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.tvGroup.FullRowSelect = true;
             this.tvGroup.HideSelection = false;
-            this.tvGroup.Location = new System.Drawing.Point(49, 103);
+            this.tvGroup.Location = new System.Drawing.Point(49, 112);
             this.tvGroup.Name = "tvGroup";
-            this.tvGroup.Size = new System.Drawing.Size(101, 216);
+            this.tvGroup.Size = new System.Drawing.Size(101, 234);
             this.tvGroup.TabIndex = 3;
             this.tvGroup.BeforeSelect += new System.Windows.Forms.TreeViewCancelEventHandler(this.tvFriends_BeforeSelect);
             this.tvGroup.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.tvFriends_AfterSelect);
@@ -155,7 +155,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(198, 422);
+            this.tabPage3.Size = new System.Drawing.Size(198, 459);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "其它";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -165,9 +165,9 @@
             this.tvOthers.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.tvOthers.FullRowSelect = true;
             this.tvOthers.HideSelection = false;
-            this.tvOthers.Location = new System.Drawing.Point(79, 181);
+            this.tvOthers.Location = new System.Drawing.Point(79, 196);
             this.tvOthers.Name = "tvOthers";
-            this.tvOthers.Size = new System.Drawing.Size(101, 216);
+            this.tvOthers.Size = new System.Drawing.Size(101, 234);
             this.tvOthers.TabIndex = 3;
             this.tvOthers.BeforeSelect += new System.Windows.Forms.TreeViewCancelEventHandler(this.tvFriends_BeforeSelect);
             this.tvOthers.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.tvFriends_AfterSelect);
@@ -178,7 +178,7 @@
             this.btnSearchFriend.AutoSize = true;
             this.btnSearchFriend.Location = new System.Drawing.Point(116, 4);
             this.btnSearchFriend.Name = "btnSearchFriend";
-            this.btnSearchFriend.Size = new System.Drawing.Size(57, 22);
+            this.btnSearchFriend.Size = new System.Drawing.Size(57, 25);
             this.btnSearchFriend.TabIndex = 7;
             this.btnSearchFriend.Text = "搜索(&S)";
             this.btnSearchFriend.UseVisualStyleBackColor = true;
@@ -190,7 +190,7 @@
             this.tbSearchFriend.ForeColor = System.Drawing.SystemColors.WindowText;
             this.tbSearchFriend.Location = new System.Drawing.Point(0, 0);
             this.tbSearchFriend.Name = "tbSearchFriend";
-            this.tbSearchFriend.Size = new System.Drawing.Size(113, 21);
+            this.tbSearchFriend.Size = new System.Drawing.Size(113, 20);
             this.tbSearchFriend.TabIndex = 6;
             this.tbSearchFriend.TextChanged += new System.EventHandler(this.tbSearchFriend_TextChanged);
             this.tbSearchFriend.Enter += new System.EventHandler(this.tbSearchFriend_Enter);
@@ -201,9 +201,9 @@
             // 
             this.lbPageNumber.AutoSize = true;
             this.lbPageNumber.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lbPageNumber.Location = new System.Drawing.Point(430, 9);
+            this.lbPageNumber.Location = new System.Drawing.Point(430, 10);
             this.lbPageNumber.Name = "lbPageNumber";
-            this.lbPageNumber.Size = new System.Drawing.Size(59, 12);
+            this.lbPageNumber.Size = new System.Drawing.Size(58, 13);
             this.lbPageNumber.TabIndex = 18;
             this.lbPageNumber.Text = "Num/Total";
             this.lbPageNumber.Click += new System.EventHandler(this.lbPageNumber_Click);
@@ -211,9 +211,9 @@
             // wbHistory
             // 
             this.wbHistory.BackColor = System.Drawing.Color.White;
-            this.wbHistory.Location = new System.Drawing.Point(3, 47);
+            this.wbHistory.Location = new System.Drawing.Point(3, 51);
             this.wbHistory.Name = "wbHistory";
-            this.wbHistory.Size = new System.Drawing.Size(166, 206);
+            this.wbHistory.Size = new System.Drawing.Size(166, 223);
             this.wbHistory.TabIndex = 17;
             this.wbHistory.WebView = this.wbView;
             // 
@@ -229,7 +229,7 @@
             this.btnLast.Image = ((System.Drawing.Image)(resources.GetObject("btnLast.Image")));
             this.btnLast.Location = new System.Drawing.Point(398, 2);
             this.btnLast.Name = "btnLast";
-            this.btnLast.Size = new System.Drawing.Size(26, 26);
+            this.btnLast.Size = new System.Drawing.Size(26, 28);
             this.btnLast.TabIndex = 16;
             this.btnLast.TabStop = false;
             this.btnLast.UseVisualStyleBackColor = true;
@@ -243,7 +243,7 @@
             this.btnFirst.Image = ((System.Drawing.Image)(resources.GetObject("btnFirst.Image")));
             this.btnFirst.Location = new System.Drawing.Point(302, 2);
             this.btnFirst.Name = "btnFirst";
-            this.btnFirst.Size = new System.Drawing.Size(26, 26);
+            this.btnFirst.Size = new System.Drawing.Size(26, 28);
             this.btnFirst.TabIndex = 15;
             this.btnFirst.TabStop = false;
             this.btnFirst.UseVisualStyleBackColor = true;
@@ -257,7 +257,7 @@
             this.btnForward.Image = ((System.Drawing.Image)(resources.GetObject("btnForward.Image")));
             this.btnForward.Location = new System.Drawing.Point(366, 2);
             this.btnForward.Name = "btnForward";
-            this.btnForward.Size = new System.Drawing.Size(26, 26);
+            this.btnForward.Size = new System.Drawing.Size(26, 28);
             this.btnForward.TabIndex = 14;
             this.btnForward.TabStop = false;
             this.btnForward.UseVisualStyleBackColor = true;
@@ -271,7 +271,7 @@
             this.btnBackward.Image = ((System.Drawing.Image)(resources.GetObject("btnBackward.Image")));
             this.btnBackward.Location = new System.Drawing.Point(334, 2);
             this.btnBackward.Name = "btnBackward";
-            this.btnBackward.Size = new System.Drawing.Size(26, 26);
+            this.btnBackward.Size = new System.Drawing.Size(26, 28);
             this.btnBackward.TabIndex = 13;
             this.btnBackward.TabStop = false;
             this.btnBackward.UseVisualStyleBackColor = true;
@@ -288,7 +288,7 @@
             "所有好友"});
             this.cbSearchArea.Location = new System.Drawing.Point(156, 4);
             this.cbSearchArea.Name = "cbSearchArea";
-            this.cbSearchArea.Size = new System.Drawing.Size(77, 20);
+            this.cbSearchArea.Size = new System.Drawing.Size(77, 21);
             this.cbSearchArea.TabIndex = 10;
             // 
             // btnSearchHistory
@@ -296,7 +296,7 @@
             this.btnSearchHistory.AutoSize = true;
             this.btnSearchHistory.Location = new System.Drawing.Point(239, 3);
             this.btnSearchHistory.Name = "btnSearchHistory";
-            this.btnSearchHistory.Size = new System.Drawing.Size(57, 22);
+            this.btnSearchHistory.Size = new System.Drawing.Size(57, 25);
             this.btnSearchHistory.TabIndex = 11;
             this.btnSearchHistory.Text = "搜索(&F)";
             this.btnSearchHistory.UseVisualStyleBackColor = true;
@@ -306,7 +306,7 @@
             // 
             this.tbSearchHistory.Location = new System.Drawing.Point(3, 4);
             this.tbSearchHistory.Name = "tbSearchHistory";
-            this.tbSearchHistory.Size = new System.Drawing.Size(147, 21);
+            this.tbSearchHistory.Size = new System.Drawing.Size(147, 20);
             this.tbSearchHistory.TabIndex = 9;
             this.tbSearchHistory.Enter += new System.EventHandler(this.tbSearchHistory_Enter);
             this.tbSearchHistory.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbSearchHistory_KeyDown);
@@ -314,9 +314,9 @@
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(969, 595);
+            this.ClientSize = new System.Drawing.Size(969, 645);
             this.Controls.Add(this.splitContainer1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
